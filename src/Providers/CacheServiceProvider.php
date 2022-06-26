@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Mageproger\MongoCache;
 
 use App\Extensions\MongoStore;
 use Illuminate\Support\Facades\Cache;
