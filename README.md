@@ -15,14 +15,14 @@ root:
 If you don't use auto-discovery, add the CacheServiceProvider to the providers array in config/app.php
 
 ```php
-Mageproger\MongoCache\Providers\CacheServiceProvider::class,
+Mageproger\MongoCache\CacheServiceProvider::class,
 ```    
     
 
 #### Copy the package config to your local config with the publish command:
 
 ```shell
-php artisan vendor:publish --provider="Mageproger\MongoCache\Providers\CacheServiceProvider"
+php artisan vendor:publish --provider="Mageproger\MongoCache\CacheServiceProvider"
 ```
 
 #### Add config to config/cache.php:
