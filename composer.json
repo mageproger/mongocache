@@ -1,0 +1,29 @@
+{
+    "name": "mageproger/mongocache",
+    "description": "Laravel cache MongoDB driver library",
+    "keywords": ["database", "driver", "mongodb", "persistence"],
+    "homepage": "https://jira.mongodb.org/browse/PHPLIB",
+    "license": "Apache-2.0",
+    "authors": [
+        { "name": "Mageproger", "email": "developing@mail.ru" }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-hash": "*",
+        "ext-json": "*",
+        "ext-mongodb": "^1.13.0",
+        "mongodb/mongodb": "*",
+        "illuminate/cache": "*",
+        "illuminate/contracts": "*"
+    },
+    "autoload": {
+        "psr-4": { "Mageproger\\MongoCache\\Cache\\": "src/Cache" }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mageproger\\MongoCache\\Providers\\CacheServiceProvider"
+            ]
+        }
+    }
+}
