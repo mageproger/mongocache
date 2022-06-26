@@ -2,7 +2,7 @@
 
 namespace Mageproger\MongoCache;
 
-use App\Extensions\MongoStore;
+use Mageproger\MongoCache\MongoStore;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\ServiceProvider;
 
