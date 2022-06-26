@@ -6,7 +6,7 @@ use Mageproger\MongoCache\MongoStore;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\ServiceProvider;
 
-class CacheServiceProvider extends ServiceProvider
+class MongoCacheServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.

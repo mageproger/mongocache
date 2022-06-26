@@ -17,12 +17,12 @@
         "illuminate/contracts": "*"
     },
     "autoload": {
-        "psr-4": { "Mageproger\\MongoCache\\": "src/" }
+        "psr-4": {"Mageproger\\MongoCache\\": "src/" }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mageproger\\MongoCache\\CacheServiceProvider"
+                "Mageproger\\MongoCache\\MongoCacheServiceProvider"
             ]
         }
     }
